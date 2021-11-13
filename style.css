@@ -1,0 +1,77 @@
+@font-face {
+  font-family: myFont;
+  src: url(fa-solid-900.woff2);
+}
+
+@font-face {
+  font-family: myFont1;
+  src: url(fa-brands-400.woff2);
+}
+
+body {
+  margin: 0;
+
+  font-family: myFont;
+}
+
+.topNavBar {
+  margin: 0;
+  padding: 0;
+  background-color: #1a2238;
+  height: 110px;
+  width: 100%;
+  position: fixed;
+  overflow: hidden;
+}
+
+.navLinks {
+  padding-left: 68%;
+  padding-top: 4%;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navLinks1 {
+  display: inline;
+  font-weight: bold;
+  font-family: myFont1;
+}
+
+.navItem {
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navLinks1 .navItem:hover:not(.active) {
+  color: #ff6a3d;
+  text-shadow: 2px;
+}
+
+.active {
+  color: #ff6a3d;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.text{
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  background-color: #1a2238;
+  padding-top: 120px;
+  height: 200px;
+  width: 100%;
+}
+
+.random{
+  color: #1a2238;
+}
